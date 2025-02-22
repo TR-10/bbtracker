@@ -78,5 +78,6 @@ const styles = StyleSheet.create({
     padding: 32,
     gap: 16,
     overflow: 'hidden',
+    backgroundImage: 'linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(255, 255, 246, 0.2))',
   },
 });

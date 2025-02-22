@@ -1,0 +1,155 @@
+[
+    {
+      "name": "Spot Shooting",
+      "category": "Shooting",
+      "improves": ["Catch-and-shoot ability", "Muscle memory", "Form"],
+      "description": "5 shots from 5 different spots (corner, wing, top, wing, corner).",
+      "sets_reps": "5 sets of 5 shots (25 total per round).",
+      "variations": ["Move further out", "Add a defender", "Reduce time per shot"]
+    },
+    {
+      "name": "Off-the-Dribble Shooting",
+      "category": "Shooting",
+      "improves": ["Shot creation", "Footwork", "Balance"],
+      "description": "Pull-up jumpers from different angles off 1-2 dribbles.",
+      "sets_reps": "3 sets of 10 shots per side.",
+      "variations": ["Add a defender", "Simulate game-speed movement"]
+    },
+    {
+      "name": "Catch-and-Shoot Under Pressure",
+      "category": "Shooting",
+      "improves": ["Quick release", "Decision-making under pressure"],
+      "description": "Player receives passes and must shoot within 1 second.",
+      "sets_reps": "4 sets of 8 shots.",
+      "variations": ["Defender closing out", "Shot fake into dribble"]
+    },
+    {
+      "name": "Free Throw Routine",
+      "category": "Shooting",
+      "improves": ["Focus", "Mechanics", "Clutch shooting"],
+      "description": "10 free throws between drills to simulate game fatigue.",
+      "sets_reps": "50-100 total per practice.",
+      "variations": ["Pressure situations (miss = sprint)", "Visualization techniques"]
+    },
+    {
+      "name": "Mikan Drill",
+      "category": "Finishing",
+      "improves": ["Touch", "Footwork", "Finishing at the rim"],
+      "description": "Alternating layups under the rim without dribbling.",
+      "sets_reps": "4 sets of 30 seconds.",
+      "variations": ["Reverse layups", "Add a defender"]
+    },
+    {
+      "name": "1-on-1 Finishing at the Rim",
+      "category": "Finishing",
+      "improves": ["Contact finishes", "Decision-making"],
+      "description": "Defender contests a layup attempt from different angles.",
+      "sets_reps": "5 reps per player from each side.",
+      "variations": ["Off-the-dribble", "Euro-step", "Floater"]
+    },
+    {
+      "name": "Floaters & Runners",
+      "category": "Finishing",
+      "improves": ["Mid-paint scoring", "Touch over shot blockers"],
+      "description": "Floater attempts from different angles.",
+      "sets_reps": "3 sets of 8 shots per hand.",
+      "variations": ["Off one foot", "Off two feet"]
+    },
+    {
+      "name": "Cone Dribbling Series",
+      "category": "Ball Handling",
+      "improves": ["Hand speed", "Ball control", "Change of direction"],
+      "description": "Dribble through cones with different moves (crossover, behind-the-back, spin).",
+      "sets_reps": "4 rounds, 30 seconds each.",
+      "variations": ["Add a defender", "Go full court"]
+    },
+    {
+      "name": "Full-Court Dribbling",
+      "category": "Ball Handling",
+      "improves": ["Game-speed handling", "Conditioning"],
+      "description": "Players dribble up and down the court at max speed.",
+      "sets_reps": "5 trips full court per drill.",
+      "variations": ["Weak-hand only", "Combo moves"]
+    },
+    {
+      "name": "Live 1-on-1 Ball Handling",
+      "category": "Ball Handling",
+      "improves": ["Ability to break down defenders"],
+      "description": "One player attacks, the other defends in a tight space.",
+      "sets_reps": "5 possessions per player.",
+      "variations": ["Limit dribbles", "Use only weak hand"]
+    },
+    {
+      "name": "Pick-and-Roll Decision Making",
+      "category": "Passing",
+      "improves": ["Reads off screens", "Assist ability"],
+      "description": "Ball handler runs a pick-and-roll with different reads (roll, pop, drive).",
+      "sets_reps": "10 reps per play type.",
+      "variations": ["Defender involved", "Passing to a shooter"]
+    },
+    {
+      "name": "1-on-1 Full-Court Defense",
+      "category": "Defense",
+      "improves": ["Foot speed", "Lateral movement", "Stamina"],
+      "description": "One player defends full-court while the other tries to score.",
+      "sets_reps": "3 rounds per player.",
+      "variations": ["No fouling allowed", "Must force weak hand"]
+    },
+    {
+      "name": "Shell Drill (Team Defense)",
+      "category": "Defense",
+      "improves": ["Rotations", "Help-side defense", "Communication"],
+      "description": "4 defenders rotate based on ball movement.",
+      "sets_reps": "3-minute segments.",
+      "variations": ["Add live offense", "Restrict dribbles"]
+    },
+    {
+      "name": "War Drill",
+      "category": "Rebounding",
+      "improves": ["Physicality", "Positioning", "Securing boards"],
+      "description": "3 players battle for a rebound, first to 3 rebounds wins.",
+      "sets_reps": "4 rounds.",
+      "variations": ["Offensive rebounding only", "Must outlet pass after"]
+    },
+    {
+      "name": "Suicides",
+      "category": "Conditioning",
+      "improves": ["Speed", "Endurance"],
+      "description": "Sprint to different court markers and back.",
+      "sets_reps": "3 rounds per session.",
+      "variations": ["Dribble a ball", "Defensive slides instead of running"]
+    },
+    {
+      "name": "Lane Agility Drill",
+      "category": "Conditioning",
+      "improves": ["Footwork", "Lateral quickness"],
+      "description": "Sprint, shuffle, backpedal around the paint.",
+      "sets_reps": "4 rounds.",
+      "variations": ["Timed competition"]
+    },
+    {
+      "name": "Reaction Drill (Coach Calls Out Moves)",
+      "category": "Conditioning",
+      "improves": ["Reflexes", "Game-speed reactions"],
+      "description": "Players respond to verbal cues (sprint, slide, jump, retreat).",
+      "sets_reps": "3 minutes.",
+      "variations": ["Add a ball", "React to opponent's movement"]
+    },
+    {
+      "name": "Bodyweight Circuit",
+      "category": "Strength & Injury Prevention",
+      "improves": ["Core strength", "Durability"],
+      "description": "Push-ups, planks, squats, lunges, jump squats.",
+      "sets_reps": "3 rounds, 45 seconds each.",
+      "variations": ["Add resistance bands", "Balance elements"]
+    },
+    {
+      "name": "Resistance Band Training",
+      "category": "Strength & Injury Prevention",
+      "improves": ["Explosiveness", "Joint stability"],
+      "description": "Band-assisted movements for shooting, lateral quickness.",
+      "sets_reps": "3 sets of 12 reps per movement.",
+      "variations": ["Increase resistance"]
+    }
+  ]
+  
