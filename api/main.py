@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from api.sql_alchemy_models import *
 from fastapi import FastAPI, HTTPException, Body
 from fastapi.middleware.cors import CORSMiddleware
+from datetime import datetime
 app = FastAPI()
 
 origins = [
@@ -25,6 +26,15 @@ def read_root():
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: str = None):
+    """
+    Retrieve an item by its ID and an optional query string.
+    Args:
+        item_id (int): The ID of the item to retrieve.
+        q (str, optional): An optional query string. Defaults to None.
+    Returns:
+        dict: A dictionary containing the item ID and the query string.
+    """
+    
     return {"item_id": item_id, "q": q}
 
 
@@ -151,3 +161,33 @@ def read_drills():
     if not drills:
         raise HTTPException(status_code=404, detail="Drills not found")
     return drills
+
+@app.post("/player/drill_schedule")
+def read_drill_schedule(data: dict = Body(...)):
+    player_name = data.get("player_name")
+    selected_date_str = data.get("date")
+    hour = data.get("hour")
+    selected_date = datetime.fromisoformat(selected_date_str.replace("Z", "+00:00")).date()
+    print(type(selected_date))
+    drills = get_schedule_by_player_for_day(player_name,selected_date,hour)
+    # if not drills:
+    #     raise HTTPException(status_code=404, detail="Drill schedule not found")
+    return drills
+
+@app.put("/player/drill_schedule")
+def update_drill_schedule(data: dict = Body(...)):
+    player_name = data.get("player_name")
+    drill = data.get("drill")
+    date=data.get("date")
+    hour: int = data.get("hour")
+    add_drill_to_player_schedule(player_name,drill,date,hour)
+    return {"status":"success"}
+
+@app.delete("/player/drill_schedule")
+def update_drill_schedule(data: dict = Body(...)):
+    player_name = data.get("player_name")
+    drill = data.get("drill")
+    date=data.get("date")
+    hour: int = data.get("hour")
+    remove_drill_from_player_schedule(player_name,drill,date,hour)
+    return {"status":"success"}
